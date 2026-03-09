@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "siyuan-mcp": {
+      "command": "node",
+      "args": [
+        "C:/Users/zak/Documents/Projects/siyuan_mcp_server/dist/index.js"
+      ],
+      "env": {
+        "SIYUAN_HOST": "127.0.0.1",
+        "SIYUAN_PORT": "6806",
+        "SIYUAN_TOKEN": "qu1lc099w6cqlrxn"
+      }
+    }
+  },
+  "$version": 3
+}
