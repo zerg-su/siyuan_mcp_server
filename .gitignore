@@ -1,3 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/*.js.map
+
 # Test and debug scripts (not needed in repo)
 check_*.js
 create_*.js
@@ -15,7 +35,7 @@ test_*.js
 update_*.js
 verify_*.js
 
-# Config files (local only)
+# Local config files
 .qwen/mcp.json
 .qwen/settings.json.orig
 mcp.json
@@ -31,3 +51,6 @@ scripts/check_siyuan.ps1
 
 # Git message template
 .gitmessage
+
+# Null file (Windows artifact)
+$null
