@@ -1,62 +1,33 @@
-# Dependencies
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Test and debug scripts (not needed in repo)
+check_*.js
+create_*.js
+debug_*.js
+diagnose_*.js
+dump_*.js
+explore_*.js
+final_*.js
+find_*.js
+fix_*.js
+list_*.js
+setup_*.js
+simple_*.js
+test_*.js
+update_*.js
+verify_*.js
 
-# Build output
-# dist/ - NOT ignored, committed for npx github: usage
-build/
+# Config files (local only)
+.qwen/mcp.json
+.qwen/settings.json.orig
+mcp.json
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Documentation drafts
+MCP_SETUP.md
+WINDOWS_SETUP.md
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Batch/PowerShell scripts
+run_siyuan_mcp.bat
+create_qwen_mcp_config.ps1
+scripts/check_siyuan.ps1
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Logs
-logs
-*.log
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage/
-
-# nyc test coverage
-.nyc_output
-
-# Dependency directories
-jspm_packages/
-
-# Optional npm cache directory
-.npm
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity .env
+# Git message template
+.gitmessage
